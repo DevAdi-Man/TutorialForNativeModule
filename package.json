@@ -35,6 +35,14 @@
     "react-test-renderer": "19.1.1",
     "typescript": "^5.8.3"
   },
+  "codegenConfig": {
+     "name": "NativeContacts",
+     "type": "modules",
+     "jsSrcsDir": "specs",
+     "android": {
+       "javaPackageName": "com.contactsmodule"
+     }
+   },
   "engines": {
     "node": ">=20"
   }
