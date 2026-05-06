@@ -1,7 +1,7 @@
 import { PermissionsAndroid, Platform } from "react-native";
 
 async function requestContactPermission() {
-    if (Platform.OS != "android") return true;
+    if (Platform.OS !== "android") return true;
 
     try {
         const grand = await PermissionsAndroid.request(
